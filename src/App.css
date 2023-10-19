@@ -1,0 +1,128 @@
+html{
+  font-size: 12px;
+}
+.App {
+  text-align: center;
+  /* padding: 3em; */
+  margin: auto;
+  max-width: 900px;
+  font-family: 'Nunito', sans-serif;
+
+}
+p,li{
+  line-height: 150%;
+}
+body {
+  margin: 5px;
+}
+.dat h1{
+  background: #00274c;
+  color:#e5e6e7
+}
+.dat p, .info > h1 {
+  color: #00274c;
+}
+ul {
+  list-style: disc inside none;
+}
+.nav{
+  background-color: #e5e6e7;
+  color: #00274c;
+}
+.splash{
+  margin: 0px;
+  padding: 10px 0px;
+  background-color: rgb(65, 65, 211);
+  background-image: linear-gradient(180deg,#00274c 0,#004c72 100%);
+  color: white;
+}
+.splash > h1 {
+  margin: 0px 10%;
+  /* padding: 1em; */
+  text-align: left;
+  text-transform: uppercase;
+  
+}
+.splash hr + h1 {
+  font-size: 200%;
+}
+hr{
+  height: 0.3em;
+  border: none;
+  background-color:#FFCB05;;
+  margin: 0em 2em;
+}
+.grid {
+  padding: .5em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.g5{
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.g4{
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: grid;
+  gap: 10px;
+}
+.g2{
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid blue;
+  display: grid;
+  
+}
+.g2 * {
+  padding:2px;
+}
+.g2 button, .dat button{
+  background: #FFCB05;
+  color:#00274c;
+  text-transform: uppercase;
+  margin: 3px;
+}
+.g2 h2 {
+  font-weight: bolder;
+  color:#00274c
+}
+
+h1{
+  font-size: 1.5em;
+
+}
+
+.b:hover{
+  background-color:#FFCB05;
+}
+.footer div, .footer img{
+  text-align: left;
+  padding: 1em;
+  font-size: 0.8em;
+}
+.tile h2, .tile button{
+  grid-column: 1/-1;
+  width: auto;
+  justify-self: center;
+}
+.g1-3{
+  grid-template-columns: 1fr 3fr;
+}
+.instructors{
+  grid-column: 1/-1;
+}
+.con{
+  padding: 1em;
+}
+.info{
+  background-color: #e5e6e7;
+}
+.class-stuff{
+  padding: 1em;
+}
+.class-stuff h1 {
+  background-color: #00274c;
+  color: white;
+  text-transform: uppercase;
+}
+.class-stuff p, .class-stuff li {
+  text-align: left;
+}

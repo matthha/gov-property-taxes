@@ -9,6 +9,21 @@ html{
   font-family: 'Nunito', sans-serif;
 
 }
+.flexbox{
+  display: flex;
+  flex-direction: row;
+  padding:10px;
+}
+.flexbox * {
+  padding:5px;
+}
+.promptSide{
+  flex:6;
+  background: #ECECEC;
+}
+.breakdownSide{
+  flex:4
+}
 p,li{
   line-height: 150%;
 }

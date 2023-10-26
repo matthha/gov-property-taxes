@@ -1,0 +1,38 @@
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    padding:10px;
+    border-radius: 5px;
+    border: 3px solid #cccccc ;
+  }
+  .flexbox * {
+    padding:5px;
+  }
+  .flexbox input,button{
+    margin-left: 10px;
+  }
+  .promptSide{
+    flex:6;
+    background: #ECECEC;
+    text-align: left;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  .breakdownSide{
+    flex:4;
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    background: #cccccc;
+  }
+  .buttonSelect {
+    border: 3px solid #030303;
+    border-radius: 10px;
+    
+  }
+  .gridLong{
+    grid-column: 1/ -1;
+  }
+  button {
+    margin:3px;
+    padding:2px;
+  }

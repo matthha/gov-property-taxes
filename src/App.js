@@ -1,6 +1,7 @@
 
 import './Reset.css'
 import './App.css';
+import './Calc.css'
 import Header from './components/Header'
 import Nav from './components/Nav'
 import Splash from './components/Splash';
@@ -14,7 +15,7 @@ import Learn from './components/Screens/Learn';
 
 
 function App() {
-  const [screen, setScreen] = useState("LeanManufacturing");
+  const [screen, setScreen] = useState("Calculator");
   return (
     <div className="App">
       <header className="App-header">      

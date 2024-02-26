@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/gov-property-taxes/static/css/main.0bb48910.css",
-    "main.js": "/gov-property-taxes/static/js/main.a69f8f93.js",
+    "main.js": "/gov-property-taxes/static/js/main.71d5a7c2.js",
     "static/js/787.28cb0dcd.chunk.js": "/gov-property-taxes/static/js/787.28cb0dcd.chunk.js",
     "index.html": "/gov-property-taxes/index.html",
     "main.0bb48910.css.map": "/gov-property-taxes/static/css/main.0bb48910.css.map",
-    "main.a69f8f93.js.map": "/gov-property-taxes/static/js/main.a69f8f93.js.map",
+    "main.71d5a7c2.js.map": "/gov-property-taxes/static/js/main.71d5a7c2.js.map",
     "787.28cb0dcd.chunk.js.map": "/gov-property-taxes/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0bb48910.css",
-    "static/js/main.a69f8f93.js"
+    "static/js/main.71d5a7c2.js"
   ]
 }
